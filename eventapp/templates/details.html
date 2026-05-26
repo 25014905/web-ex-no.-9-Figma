@@ -1,0 +1,110 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Details</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#222;
+    font-family:Arial;
+}
+
+.mobile{
+    width:280px;
+    height:600px;
+    margin:30px auto;
+    border-radius:30px;
+
+    background:
+    linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
+    url("{% static 'images/bg.jpg' %}");
+
+    background-size:cover;
+    padding:20px;
+    box-shadow:0 0 10px black;
+}
+
+.logo{
+    width:200px;
+}
+
+h2{
+    text-align:center;
+    margin-top:20px;
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin-top:15px;
+    border:none;
+    border-radius:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#ff4d1c;
+    color:white;
+    border:none;
+    border-radius:15px;
+    margin-top:30px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.contact{
+    text-align:center;
+    margin-top:20px;
+}
+
+a{
+    color:red;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="mobile">
+
+<center>
+<img src="{% static 'images/event.png' %}" width="200px">
+</center>
+
+<h2>PERSONAL DETAILS</h2>
+
+<form action="/success/">
+
+<input type="text" placeholder="ENTER NAME">
+
+<input type="text" placeholder="REGISTER NUMBER">
+
+<input type="text" placeholder="DEPARTMENT">
+
+<input type="text" placeholder="PHONE NUMBER">
+
+<input type="email" placeholder="EMAIL ID">
+
+<button type="submit">
+SUBMIT
+</button>
+
+</form>
+
+<div class="contact">
+<p>FACING TROUBLE ?</p>
+<a href="#">CONTACT US</a>
+</div>
+
+</div>
+
+</body>
+</html>
