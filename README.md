@@ -454,10 +454,10 @@ button{
 
 
 ## OUTPUT:
-![Image](eventapp/a.png?raw=true)
-![Image](eventapp/b.png?raw=true)
-![Image](eventapp/c.png?raw=true)
-![Image](eventapp/d.png?raw=true)
+![Image](./eventapp/a.png)
+![Image](./eventapp/b.png)
+![Image](./eventapp/c.png)
+![Image](./eventapp/d.png)
 
 
 DEVELOPED BY: MIRDULA D
